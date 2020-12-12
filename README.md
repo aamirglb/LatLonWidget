@@ -10,16 +10,16 @@ Following formats are supported:
 This software uses the library available at [git repo](https://github.com/bakercp/ofxGeo.git) for conversion from UTM to Latitude and Longitude and visa versa.
 
 ## How To Use The Widget
-Copy the latlonwidget.h and latlonwidget.cpp file into your project. 
+Copy the ``latlonwidget.h`` and ``latlonwidget.cpp`` file into your project. 
 Then you can create the latlonwidget at runtime using 
 ```cpp
 LatLonWidget *w = new LatLonWidget;
 ```
 
-To use the widget in QCreator Designer Form, insert a Widget on the designer form and prompte it latlonwidget.
+To use the widget in QCreator Designer Form, insert a QWidget UI widget on the designer form and promote it to latlonwidget.
 
 ## Test Application
-This repor include a test program to test the widget. Clone the repo and build the project to use the test program.
+This repo include a test program to test the LatLonWidget. Clone the repo and build the project to use the test program.
 
 ![Test Program](test_app.png)
 
